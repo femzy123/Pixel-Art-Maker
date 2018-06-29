@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+/*Add new styles like css grids to make the app more presentable*/
+
+
+.layout {
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: auto;
+    grid-gap: 3px;
+    height: 100%;
+
+}
+
+.control {
+    border-right: 4px #ccc solid;
+    padding: 40% 10px 20% 10px;
+    
+}
+
+#sizePicker {
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.color {
+    background-color: #7673f4;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+table {
+    margin-top: 5%;
+    max-width: 90%;
+}
+
+#clearGrid {
+    width: 70%;
+    max-height: 100px;
+    margin-top: 15%;
+    background-color: #ff0000;
+    color:#fff;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    font: 18px bolder;
+}
+
+#clearGrid:hover {
+    background-color: rgb(255, 0, 0, 60%);
+}
